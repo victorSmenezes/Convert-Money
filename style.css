@@ -42,7 +42,8 @@ label {
     font-size: 14px;
     color: #777777;
 }
-b{
+
+b {
     font-weight: bold;
 }
 
@@ -75,7 +76,7 @@ input {
     font-size: 16px;
 }
 
-#value-input{
+#value-input {
     padding-left: 15px;
 }
 
@@ -133,7 +134,7 @@ section {
     display: block;
 }
 
-footer{
+footer {
     position: static;
     text-align: center;
     margin: 30px auto 0 auto;
@@ -141,12 +142,12 @@ footer{
     height: 30px;
     background: #7c7c7ccb;
     border-radius: 10px;
-    padding-right: 5px; 
+    padding-right: 5px;
     padding-top: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
- }
+}
 
-a{
+a {
     font-weight: bold;
     text-decoration: none;
     color: rgb(163, 202, 89);
@@ -155,9 +156,10 @@ a{
     align-items: center;
 }
 
-footer:hover{
+footer:hover {
     opacity: .7;
 }
+
 footer:active {
     opacity: .9;
     background-color: #acacac;
