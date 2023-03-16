@@ -10,28 +10,31 @@
 
 body {
     background-color: #4e4e4b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
     width: 375px;
     background-color: #ececec;
-    margin: 0 auto;
-    margin-top: 50px;
-    border-radius: 22px;
+    border-radius: 24px;
 }
 
 header {
     background-color: #e2851b;
     height: 66px;
     border-radius: 22px 10px 22px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
     font-size: 24px;
     font-weight: bold;
     color: #F4F4F4;
-    text-align: center;
-    padding-top: 25px;
 }
 
 main {
@@ -105,17 +108,22 @@ button:active {
 }
 
 section {
-    width: 327px;
-    height: 286px;
     border: 1px solid #e2851b;
     border-radius: 4px;
     background-color: #ffffff;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.20);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .currency-container {
-    text-align: center;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px
 }
 
 .currency-name {
@@ -129,15 +137,12 @@ section {
     font-size: 20px;
 }
 
-.arrow-img {
-    margin: 15px auto;
-    display: block;
-}
 
-footer {
-    position: static;
+ footer {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 85px;
     text-align: center;
-    margin: 30px auto 0 auto;
     width: 140px;
     height: 30px;
     background: #7c7c7ccb;
@@ -151,9 +156,7 @@ a {
     font-weight: bold;
     text-decoration: none;
     color: rgb(163, 202, 89);
-    width: 200px;
-    height: 30px;
-    align-items: center;
+    text-align: center;
 }
 
 footer:hover {
@@ -163,4 +166,4 @@ footer:hover {
 footer:active {
     opacity: .9;
     background-color: #acacac;
-}
+} 
