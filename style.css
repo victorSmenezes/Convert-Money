@@ -138,7 +138,7 @@ section {
 }
 
 
- footer {
+footer {
     position: absolute;
     margin-top: 50px;
     margin-left: 85px;
@@ -166,4 +166,4 @@ footer:hover {
 footer:active {
     opacity: .9;
     background-color: #acacac;
-} 
+}
