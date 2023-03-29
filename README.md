@@ -9,7 +9,6 @@ Um conversor de moedas, que pega o valor inserido em Reais e converte para uma d
 - Euro
 - Bitcoin
 
-O layout proposto era outro, e ao decorrer fiz umas mudanças! 
 
 ##
 
