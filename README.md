@@ -5,7 +5,7 @@ Link: https://victorsmenezes.github.io/Convert-Money/
 Projeto,  conciliando os conhecimentos em Front End com JavaScript, HTML e CSS.
 
 Um conversor de moedas, que pega o valor inserido em Reais e converte para uma das moedas escolhidas, sendo: 
-- Dolár americano
+- Dólar americano
 - Euro
 - Bitcoin
 
